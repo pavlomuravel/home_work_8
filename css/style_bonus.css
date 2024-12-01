@@ -1,0 +1,45 @@
+.conteiner{
+    width: 300px;
+}
+
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background: #7bfc26;
+    box-sizing: border-box;
+    margin: -2px;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 20px;
+    font-family:Bradley Hand, cursive;
+}
+
+
+nav {
+    border: 3px solid #000;
+    background-color: bisque;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+.navi__link{
+    border: 3px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: chartreuse;
+    text-decoration: none;
+    color: rgb(151, 7, 7);
+    box-shadow: 10px 10px 5px #000;
+}
+
+.navi a:hover {
+    background-color: rgb(90, 180, 0);
+}
