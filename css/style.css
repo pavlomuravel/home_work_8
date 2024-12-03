@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body{
     background: #62faff;
     font-family:Bradley Hand, cursive;
@@ -43,7 +46,7 @@ body{
 }
 .containerfour__block--left {
     width: 200px;
-    height: 220px;
+    height: 211px;
     border: 3px solid #000;
     background-color: lightcoral;
     font-size: 20px;
@@ -67,7 +70,7 @@ body{
 
 .containerfive__block--left {
     width: 200px;
-    height: 220px;
+    height: 211px;
     border: 3px solid #000;
     background-color: lightcoral;
     font-size: 20px;
@@ -82,8 +85,9 @@ body{
 }
 
 .containerfive__block--oll {
-    float: right;
-    margin-right: 38.3%;
+    overflow: auto;
+    margin: 0 auto;
+    width: 446px;
 }
 
 nav {
